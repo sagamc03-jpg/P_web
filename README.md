@@ -1,1 +1,2 @@
-# Programaci-n_web
+Daniel Sánchez García 
+Téncicas de Programación G1

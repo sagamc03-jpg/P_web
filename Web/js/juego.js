@@ -81,5 +81,5 @@ function evaluar(resultados) {
     mensaje.style.color = colorMensaje;
 }
 
-// 👉 Mostrar imágenes iniciales al cargar la página
+// Mostrar imágenes iniciales al cargar 
 window.onload = inicializarSlots;

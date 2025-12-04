@@ -1,2 +1,2 @@
 Daniel Sánchez García 
-Téncicas de Programación G1
+Técnicas de Programación G1

@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>La maquinita</title>
+    <link href="estilos/estilos.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">     <!-- No querían salir los emojis -->
+</head>
+
+<body>
+    <div class="encabezado">
+        <h1>La Maquinita</h1>
+    </div>
+    <div id="mensaje" class="mensaje"></div>
+    <div class="contenedor">
+        <div class="botones">
+            <button id="play" class="boton" onclick="girarSlots()"> <!-- Me faltó arreglar el botón, jajaj -->
+                <img src="iconos/jugar.png">
+            </button>
+        </div>
+        <div class=imagen>
+            <img src="iconos/TragaPerras.png" alt="">
+            <div id="pantalla" class="pantalla">
+                <div class="slot" id="slot1"></div>
+                <div class="slot" id="slot2"></div>
+                <div class="slot" id="slot3"></div>
+            </div>
+        </div>
+    </div>
+
+    <table id="tabla" class="tabla">
+        <tr>
+            <th colspan="2">Resultados</th>
+        </tr>
+        <tr>
+            <td>Ganadas</td>
+            <td id="ganadas">0</td>
+        </tr>
+        <tr>
+            <td>Casi</td>
+            <td id="casi">0</td>
+        </tr>
+        <tr>
+            <td>Pérdidas</td>
+            <td id="pérdidas">0</td>
+        </tr>
+    </table>
+    <script src="js/juego.js"></script>
+
+</body>
+
+
+</html>
